@@ -28,7 +28,7 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 300%;
+    font-size: 500%;
     color: white;
 }
 
@@ -37,6 +37,11 @@ h2 {
     padding: 5%;
     font-size: 60px;
     color: var(--dark);
+}
+
+header img {
+    max-width: 200px;
+
 }
 
 p {
@@ -122,11 +127,11 @@ ul {
 .card {
     text-align: center;
     margin: 5px;
+    
 }
 
-.card img {
-    max-width: 300px;
-
+.card img{
+    border:10px, solid, var(--dark)
 }
 
 .card img:hover {
@@ -139,6 +144,33 @@ ul {
 
 .card:first-child {
     width: 100%;
+}
+
+.card:first-child h3{
+    display: flex;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+    bottom: 110px; left: 170px;
+    
+    background-color: var(--dark);
+    width: 500px;
+    height: 100px;
+    color: white;
+}
+
+.card h3{
+    display: flex;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+    bottom: 110px; left: 0px;
+    background-color: var(--dark);
+    width: 200px;
+    height: 100px;
+    color: white;
 }
 
 #about {
@@ -174,6 +206,8 @@ ul {
     width: 70%;
 
 }
+
+
 
 #fill {
     max-width: 1000px;
